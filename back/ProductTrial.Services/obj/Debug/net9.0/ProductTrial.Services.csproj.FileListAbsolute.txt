@@ -1,0 +1,16 @@
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\bin\Debug\net9.0\ProductTrial.Services.deps.json
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\bin\Debug\net9.0\ProductTrial.Services.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\bin\Debug\net9.0\ProductTrial.Services.pdb
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\bin\Debug\net9.0\ProductTrial.Data.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\bin\Debug\net9.0\ProductTrial.Data.pdb
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.csproj.AssemblyReference.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.AssemblyInfoInputs.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.AssemblyInfo.cs
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.csproj.CoreCompileInputs.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.sourcelink.json
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductT.8DB5962B.Up2Date
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\refint\ProductTrial.Services.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ProductTrial.Services.pdb
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Services\obj\Debug\net9.0\ref\ProductTrial.Services.dll
