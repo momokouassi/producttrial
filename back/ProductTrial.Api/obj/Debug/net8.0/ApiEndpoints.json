@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "ProductTrial.Api.Controllers.AccountController",
+    "Method": "CreateAsync",
+    "RelativePath": "account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ProductTrial.Data.Dtos.UserCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProductTrial.Data.Dtos.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ProductTrial.Api.Controllers.ProductController",
     "Method": "CreateAsync",
     "RelativePath": "products",
@@ -119,6 +145,32 @@
     "ReturnTypes": [
       {
         "Type": "ProductTrial.Data.Entities.ProductDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProductTrial.Api.Controllers.TokenController",
+    "Method": "LogInAsync",
+    "RelativePath": "token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ProductTrial.Data.Dtos.UserConnectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

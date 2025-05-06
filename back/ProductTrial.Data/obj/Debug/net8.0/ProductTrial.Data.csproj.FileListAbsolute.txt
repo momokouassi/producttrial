@@ -1,0 +1,15 @@
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\bin\Debug\net8.0\ProductTrial.Data.deps.json
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\bin\Debug\net8.0\ProductTrial.Data.runtimeconfig.json
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\bin\Debug\net8.0\ProductTrial.Data.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\bin\Debug\net8.0\ProductTrial.Data.pdb
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.csproj.AssemblyReference.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.AssemblyInfoInputs.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.AssemblyInfo.cs
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.csproj.CoreCompileInputs.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.sourcelink.json
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\refint\ProductTrial.Data.dll
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.pdb
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ProductTrial.Data.genruntimeconfig.cache
+C:\Users\Moses Malone\source\repos\ProductTrialApi\ProductTrial.Data\obj\Debug\net8.0\ref\ProductTrial.Data.dll

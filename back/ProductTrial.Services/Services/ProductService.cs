@@ -23,6 +23,14 @@ namespace ProductTrial.Services.Services
                 Product newProduct = new Product(dto.Code, dto.Name, dto.Description, dto.Image, dto.Category, dto.Price, dto.Quantity, dto.InternalReference, dto.ShellId, dto.InventoryStatus, dto.Rating);
                 await using (ProductTrialDbContext context = _contextFactory.CreateDbContext())
                 {
+                    Product? existingProduct = await context.Products.FirstOrDefaultAsync(f => f.Code == dto.Code);
+                    if (existingProduct != null)
+                    {
+                        throw new AlreadyExistsException($"A product already exists for the code {dto.Code}.");
+                    }
+
+                    newProduct.CreatedAt = DateTimeOffset.UtcNow.Ticks;
+
                     await context.Products.AddAsync(newProduct);
                     int changeCount = await context.SaveChangesAsync();
                     if (changeCount == 0)
@@ -93,7 +101,7 @@ namespace ProductTrial.Services.Services
                 Product? existingProduct = await context.Products.FirstOrDefaultAsync(f => f.Id == id);
                 if (existingProduct == null)
                 {
-                    throw new NotFoundException($"The given product does not exist (ID : {id}.");
+                    throw new NotFoundException($"The given product does not exist (ID : {id}).");
                 }
                 dst = new ProductDto(existingProduct.Id, existingProduct.Code, existingProduct.Name, existingProduct.Description, existingProduct.Image, existingProduct.Category, existingProduct.Price, existingProduct.Quantity, existingProduct.InternalReference, existingProduct.ShellId, existingProduct.InventoryStatus, existingProduct.Rating);
             }
@@ -111,7 +119,7 @@ namespace ProductTrial.Services.Services
 
                     if (existingProduct == null)
                     {
-                        throw new NotFoundException($"The given product does not exist (ID : {id}.");
+                        throw new NotFoundException($"The given product does not exist (ID : {id}).");
                     }
 
                     existingProduct.Code = editedProduct.Code;
@@ -125,6 +133,7 @@ namespace ProductTrial.Services.Services
                     existingProduct.ShellId = editedProduct.ShellId;
                     existingProduct.InventoryStatus = editedProduct.InventoryStatus;
                     existingProduct.Rating = editedProduct.Rating;
+                    existingProduct.UpdatedAt = DateTimeOffset.UtcNow.Ticks;
 
                     context.Products.Update(existingProduct);
                     await context.SaveChangesAsync();

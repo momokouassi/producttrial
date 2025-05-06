@@ -78,6 +78,28 @@ namespace ProductTrial.Data.Migrations
 
                     b.ToTable("Products");
                 });
+
+            modelBuilder.Entity("ProductTrial.Data.Entities.User", b =>
+                {
+                    b.Property<string>("Username")
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Firstname")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Username");
+
+                    b.ToTable("Users");
+                });
 #pragma warning restore 612, 618
         }
     }
