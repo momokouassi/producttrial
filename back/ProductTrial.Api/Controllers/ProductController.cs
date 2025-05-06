@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductTrial.Data.Dtos;
 using ProductTrial.Data.Entities;
@@ -5,6 +6,7 @@ using ProductTrial.Services.Interfaces;
 
 namespace ProductTrial.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("products")]
     public class ProductController : ControllerBase
@@ -23,6 +25,7 @@ namespace ProductTrial.Api.Controllers
         /// </summary>
         /// <param name="product">Product to create</param>
         /// <returns>Created product</returns>
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<ActionResult<ProductDto>> CreateAsync([FromBody] ProductCreationDto product)
         {
@@ -35,6 +38,7 @@ namespace ProductTrial.Api.Controllers
         /// </summary>
         /// <param name="id">Given product ID</param>
         /// <returns>Deleted product ID</returns>
+        [Authorize(Policy = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult<bool>> DeleteAsync(int id)
         {
@@ -71,6 +75,7 @@ namespace ProductTrial.Api.Controllers
         /// <param name="id">Given product ID</param>
         /// <param name="product">Details to save</param>
         /// <returns>Edited product</returns>
+        [Authorize(Policy = "Admin")]
         [HttpPatch("{id}")]
         public async Task<ActionResult<ProductDto>> UpdateAsync(int id, [FromBody] ProductUpdateDto dto)
         {

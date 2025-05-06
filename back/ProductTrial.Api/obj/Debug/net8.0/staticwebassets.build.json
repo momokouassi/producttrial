@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hKw0dV9AHLDXCutIkGcYZ7DuApbnFB2CtvJPndLwNNk=",
+  "Source": "ProductTrial.Api",
+  "BasePath": "_content/ProductTrial.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
